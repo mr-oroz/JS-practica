@@ -1,6 +1,5 @@
 //
 // const Week = [
-//     '',
 //     "понедельник",
 //     "вторник",
 //     "Среда",
@@ -23,5 +22,18 @@
 //         console.log('error')
 //     }
 // }
-// getWeekName(7);
+
+// const getWeekName = (i) => {
+//     i = +1;
+//     if (!isNaN(i)) {
+//         if (i >= 1) {
+//             return Week[(i % 7)- 1];
+//         } else {
+//             console.log('Invalide number!')
+//         }
+//     } else{
+//         console.error('Type a number')
+//     }
+// };
+// console.log(getWeekName(prompt('num')));
 
